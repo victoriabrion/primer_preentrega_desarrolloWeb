@@ -6,7 +6,7 @@ import ButtonPrimary from "./ButtonPrimary";
     return (
 
       <View style={styles.container}>
-        <TextInput value= {taskTitle.title} placeholder='Add new title' onChangeText={onHandlerTitle} style={styles.input}></TextInput>
+        <TextInput value= {taskTitle} placeholder='Add new title' onChangeText={onHandlerTitle} style={styles.input}></TextInput>
         <TextInput value= {taskDescription} placeholder='Add new description' onChangeText={onHandlerDescription} style={styles.input}></TextInput>
         <ButtonPrimary title= 'Add task' onPress={addTask} />
       </View>

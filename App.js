@@ -31,8 +31,8 @@ const App = () => {
     }
 
     setTasks ([...tasks, newTask])
-    setTaskTitle ('')
-    setTaskDescription('')
+    setTaskTitle ("")
+    setTaskDescription("")
     Keyboard.dismiss()
   }
 
